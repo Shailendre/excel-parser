@@ -95,7 +95,7 @@ public class Student {
 
 * `ExcelObject`: As shown above, this annotation tells parser to parse Rows 6 to 8 (create 3 student objects). NOTE: Optional field “zeroIfNull” , if set to true, will populate Zero to all number fields (Double,Long,Integer) by default if the data is not available in DB.
 * `ExcelField`: Student class has 7 values to be parsed and stored in the database. This is denoted in the domain class as annotation.
-* `MappedExcelObject`: Student class does not have any complex object, hence this annoation is not used in this domain class.
+* `MappedExcelObject`: Student class does not have any complex object, hence this annotation is not used in this domain class.
 
 
 ### Step 2: Invoke Sheet Parser
